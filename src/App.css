@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.searchPart .MuiInputBase-root input{
+  width:30ch !important
+}
+
+.css-uob957-MuiListSubheader-root{
+  background-color: #23323c !important;
+  color:white !important
+}
+
+.MuiInputBase-inputAdornedStart{
+  text-align: right !important;
+  color: white !important;
+  padding: 20px 10px 20px 20px !important;
+  font-size: x-large !important;
+}
+
+.p10 .MuiToolbar-root{
+  padding:0px 10px !important;
+}
+
+.tradingChart iframe{
+  width:100% !important;
+  height:100% !important
+}
+
+.second{
+  display:grid !important;
+  width: 100% !important;
+}
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input{
+  font-size: x-large !important;
+  font-weight: 600 !important;
+  color:white !important;
+  padding: 10px !important;
+    border: 1px solid gray !important;
+    border-radius: 5px !important;
+}
+
+.App-header {
+  background-color: #23323c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.desktop{
+    display: block !important;
+  }
+
+  .mobile{
+    display:none !important;
+  }
+
+@media only screen and (max-width: 600px) {
+  .desktop{
+    display: none !important;
+  }
+
+  .mobile{
+    display:block !important;
+  }
+}

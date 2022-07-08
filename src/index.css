@@ -1,0 +1,51 @@
+html{
+  background-color: #141b22;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+ background-color: #142028 !important;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius:50%; 
+}
+
+.searchbar{
+  margin-left: 0px !important;
+}
+
+body {
+  margin: 0;
+  font-family: Pancake;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue rgb(0 0 0 / 38%);
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar-track {
+  background: rgb(0 0 0 / 38%);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2196f3;
+  border-radius: 20px;
+}
+
+@font-face {
+    font-family: Pancake;
+    src: url("../public/assets/font.woff2") format("opentype");
+}
